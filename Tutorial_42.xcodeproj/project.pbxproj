@@ -17,6 +17,7 @@
 		84468B091B5712B10012AC7D /* hideSections.js in Resources */ = {isa = PBXBuildFile; fileRef = 84468B081B5712B10012AC7D /* hideSections.js */; };
 		84468B0B1B5715780012AC7D /* getPosts.js in Resources */ = {isa = PBXBuildFile; fileRef = 84468B0A1B5715780012AC7D /* getPosts.js */; };
 		84468B0E1B57195D0012AC7D /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 84468B0D1B57195D0012AC7D /* Post.m */; };
+		844CFBBC1B58718D0053116A /* PostsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844CFBBB1B58718D0053116A /* PostsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		84468B0A1B5715780012AC7D /* getPosts.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = getPosts.js; sourceTree = "<group>"; };
 		84468B0C1B57195D0012AC7D /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
 		84468B0D1B57195D0012AC7D /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		844CFBBA1B58718D0053116A /* PostsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostsTableViewController.h; sourceTree = "<group>"; };
+		844CFBBB1B58718D0053116A /* PostsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,8 @@
 				84468B0A1B5715780012AC7D /* getPosts.js */,
 				84468B0C1B57195D0012AC7D /* Post.h */,
 				84468B0D1B57195D0012AC7D /* Post.m */,
+				844CFBBA1B58718D0053116A /* PostsTableViewController.h */,
+				844CFBBB1B58718D0053116A /* PostsTableViewController.m */,
 			);
 			path = Tutorial_42;
 			sourceTree = "<group>";
@@ -236,6 +241,7 @@
 				844487831B55AC9D00C9F565 /* AppDelegate.m in Sources */,
 				844487801B55AC9D00C9F565 /* main.m in Sources */,
 				84468B0E1B57195D0012AC7D /* Post.m in Sources */,
+				844CFBBC1B58718D0053116A /* PostsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

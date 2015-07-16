@@ -12,20 +12,24 @@
 	<dict>
 		<key>DEB442CCEA368784ACBC02ABEF6821208C361C7B</key>
 		<string>https://github.com/rewfe/Tutorial_42.git</string>
+		<key>DFA40F5427C455F82CF2DCF6678AC195392C1AB7</key>
+		<string>https://github.com/rewfe/Tutorial_43.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Tutorial_42.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>DEB442CCEA368784ACBC02ABEF6821208C361C7B</key>
+		<string>../../../Tutorial_42</string>
+		<key>DFA40F5427C455F82CF2DCF6678AC195392C1AB7</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/rewfe/Tutorial_42.git</string>
+	<string>https://github.com/rewfe/Tutorial_43.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>DEB442CCEA368784ACBC02ABEF6821208C361C7B</string>
+	<string>DFA40F5427C455F82CF2DCF6678AC195392C1AB7</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>DEB442CCEA368784ACBC02ABEF6821208C361C7B</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Tutorial_42</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DFA40F5427C455F82CF2DCF6678AC195392C1AB7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Tutorial_43</string>
 		</dict>
 	</array>
 </dict>

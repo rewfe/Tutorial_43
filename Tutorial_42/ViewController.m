@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import <WebKit/WebKit.h>
 #import "Post.h"
+#import "PostsTableViewController.h"
 
 #define MessageHandler @"didGetPosts"
 
@@ -86,6 +87,16 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(postSelected:) name:@"postSelected" object:nil];
 
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"recentPosts"])
+    {
+        UINavigationController *dest = (UINavigationController *)segue.destinationViewController;
+        PostsTableViewController *vc = (PostsTableViewController *)dest.topViewController;
+        vc.posts = self.posts;
+    }
 }
 
 -(id)initWithCoder:(NSCoder *)aDecoder
@@ -238,5 +249,7 @@
         }
     }
 }
+
+
 
 @end
